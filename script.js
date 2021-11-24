@@ -1,7 +1,15 @@
-let a = 5;
-let b = a * 3;
-let c = a + b;
+alert('What’s up John Doe');
 
-alert(a);
-alert(b);
-alert(c);
+let firstName = prompt('First name')
+let lastName = prompt('Last name')
+
+function hasAdmin(firstName, lastName) {
+    if (firstName === 'John' && lastName === 'Doe') {
+        alert('Привет Admin');
+    } 
+    else {
+        alert('Error');
+    }
+}
+
+hasAdmin(firstName, lastName)
