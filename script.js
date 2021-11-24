@@ -1,13 +1,18 @@
-let a = +prompt('Количество рабочих часов в день');
-let b = +prompt('Количество рабочих дней в недели');
-let c = +prompt('Рейт за час');
-
-
-function calcSalary (a, b, c) {
-    let x = c * a;
-    let y = x * b;
-    alert('$' + y);
+//Цикл FOR
+for (let i = 0; i < 5; i++) {
+    alert(i);
 }
 
-calcSalary (a, b, c);
+//Цикл WHILE
+let i = 0;
 
+while (i < 5) {
+    i++;
+    alert(i);
+}
+
+//Цикл DO..WHILE
+do {
+    i = i + 1;
+    alert(i);
+} while (i < 5);
